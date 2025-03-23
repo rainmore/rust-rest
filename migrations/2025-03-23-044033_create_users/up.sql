@@ -1,8 +1,4 @@
-CREATE DATABASE rest_api_example;
-\c rest_api_example
-
-DROP TABLE IF EXISTS users;
-
+-- Your SQL goes here
 CREATE TABLE IF NOT EXISTS users (
   id              SERIAL PRIMARY KEY,
   first_name      VARCHAR(100) NOT NULL,
